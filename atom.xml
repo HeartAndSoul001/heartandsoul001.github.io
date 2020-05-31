@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://heartandsoul001.github.io/"/>
-  <updated>2020-05-15T15:53:45.258Z</updated>
+  <updated>2020-05-31T15:17:55.000Z</updated>
   <id>https://heartandsoul001.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试博文</title>
+    <link href="https://heartandsoul001.github.io/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/"/>
+    <id>https://heartandsoul001.github.io/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/</id>
+    <published>2020-05-31T15:17:55.000Z</published>
+    <updated>2020-05-31T15:17:55.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此篇博文旨在测试一下利用 hexo 编写并上传博文后的结果，以下纯属胡编：&lt;br&gt;屋檐如悬崖，风铃如沧海，我等燕归来；&lt;br&gt;时间被安排，演一场意外，你悄然走开；&lt;br&gt;浓雾散不开，风声不存在，是我在感慨；&lt;br&gt;梦醒来是谁在窗台，把结局打开；&lt;br&gt;那薄如蝉翼的未来，经不起谁来拆；&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术杂文" scheme="https://heartandsoul001.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/"/>
+    
+    
+      <category term="hexo, github搭建博客" scheme="https://heartandsoul001.github.io/tags/hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
