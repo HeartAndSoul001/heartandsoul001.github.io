@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://heartandsoul001.github.io/"/>
-  <updated>2020-05-31T15:17:55.000Z</updated>
+  <updated>2020-06-10T09:01:45.000Z</updated>
   <id>https://heartandsoul001.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>x1 carbon 5th睡眠唤醒后的ACPI错误解决</title>
+    <link href="https://heartandsoul001.github.io/2020/06/10/x1-carbon-5th%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E5%90%8E%E7%9A%84ACPI%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3/"/>
+    <id>https://heartandsoul001.github.io/2020/06/10/x1-carbon-5th%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E5%90%8E%E7%9A%84ACPI%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3/</id>
+    <published>2020-06-10T09:01:45.000Z</published>
+    <updated>2020-06-10T09:01:45.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本人的机器是x1 carbon 2017,自己换上了免驱黑果卡bcm94360cs2,经过不断地爬帖子，逛论坛，不断地自我完善，从clover到OC，一步一步的渐渐完善了。期间先是看宪武大佬和小兵维护的P-little，然后转战OC，参考了OC-little。在打完OC-little的补丁以后，机器包括睡眠、触控板都挺正常的。唯一一点就是存在几处的 ACPI 错误。下面我对 ACPI 错误进行了定位与解决。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="黑苹果" scheme="https://heartandsoul001.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+    
+      <category term="黑苹果, ACPI 排错" scheme="https://heartandsoul001.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C-ACPI-%E6%8E%92%E9%94%99/"/>
+    
+  </entry>
   
   <entry>
     <title>测试博文</title>
