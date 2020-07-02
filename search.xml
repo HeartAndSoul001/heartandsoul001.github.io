@@ -3,11 +3,17 @@
   <entry>
     <title>hexo博客编辑学习</title>
     <url>/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>开篇总述</p>
+    <content><![CDATA[<p>hexo + github 搭建个人博客</p>
 <a id="more"></a>
 
 
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="又是一个一级标题"><a href="#又是一个一级标题" class="headerlink" title="又是一个一级标题"></a>又是一个一级标题</h1>]]></content>
+      <categories>
+        <category>技术杂文</category>
+      </categories>
+      <tags>
+        <tag>hexo, github</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>

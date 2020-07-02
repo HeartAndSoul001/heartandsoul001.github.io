@@ -25,11 +25,15 @@
     
     <summary type="html">
     
-      &lt;p&gt;开篇总述&lt;/p&gt;
+      &lt;p&gt;hexo + github 搭建个人博客&lt;/p&gt;
     
     </summary>
     
     
+      <category term="技术杂文" scheme="https://heartandsoul001.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/"/>
+    
+    
+      <category term="hexo, github" scheme="https://heartandsoul001.github.io/tags/hexo-github/"/>
     
   </entry>
   
