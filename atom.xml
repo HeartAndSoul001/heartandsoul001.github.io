@@ -3,11 +3,11 @@
   <title>wzq的小黑屋</title>
   
   <subtitle>人生如戏，戏如人生</subtitle>
-  <link href="/wzq/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wzq_forever.gitee.io/wzq/"/>
+  <link href="https://heartandsoul001.github.io/"/>
   <updated>2020-06-10T13:36:09.000Z</updated>
-  <id>http://wzq_forever.gitee.io/wzq/</id>
+  <id>https://heartandsoul001.github.io/</id>
   
   <author>
     <name>wzq</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo博客编辑学习</title>
-    <link href="http://wzq_forever.gitee.io/wzq/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://wzq_forever.gitee.io/wzq/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/</id>
+    <link href="https://heartandsoul001.github.io/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://heartandsoul001.github.io/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-06-10T13:36:09.000Z</published>
     <updated>2020-06-10T13:36:09.000Z</updated>
     
@@ -35,8 +35,8 @@
   
   <entry>
     <title>x1 carbon 5th睡眠唤醒后的ACPI错误解决</title>
-    <link href="http://wzq_forever.gitee.io/wzq/2020/06/10/x1-carbon-5th%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E5%90%8E%E7%9A%84ACPI%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3/"/>
-    <id>http://wzq_forever.gitee.io/wzq/2020/06/10/x1-carbon-5th%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E5%90%8E%E7%9A%84ACPI%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3/</id>
+    <link href="https://heartandsoul001.github.io/2020/06/10/x1-carbon-5th%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E5%90%8E%E7%9A%84ACPI%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3/"/>
+    <id>https://heartandsoul001.github.io/2020/06/10/x1-carbon-5th%E7%9D%A1%E7%9C%A0%E5%94%A4%E9%86%92%E5%90%8E%E7%9A%84ACPI%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3/</id>
     <published>2020-06-10T09:01:45.000Z</published>
     <updated>2020-06-10T09:01:45.000Z</updated>
     
@@ -47,17 +47,17 @@
     </summary>
     
     
-      <category term="黑苹果" scheme="http://wzq_forever.gitee.io/wzq/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+      <category term="黑苹果" scheme="https://heartandsoul001.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
     
     
-      <category term="黑苹果, ACPI 排错" scheme="http://wzq_forever.gitee.io/wzq/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C-ACPI-%E6%8E%92%E9%94%99/"/>
+      <category term="黑苹果, ACPI 排错" scheme="https://heartandsoul001.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C-ACPI-%E6%8E%92%E9%94%99/"/>
     
   </entry>
   
   <entry>
     <title>测试博文</title>
-    <link href="http://wzq_forever.gitee.io/wzq/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/"/>
-    <id>http://wzq_forever.gitee.io/wzq/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/</id>
+    <link href="https://heartandsoul001.github.io/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/"/>
+    <id>https://heartandsoul001.github.io/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/</id>
     <published>2020-05-31T15:17:55.000Z</published>
     <updated>2020-05-31T15:17:55.000Z</updated>
     
@@ -68,17 +68,17 @@
     </summary>
     
     
-      <category term="技术杂文" scheme="http://wzq_forever.gitee.io/wzq/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/"/>
+      <category term="技术杂文" scheme="https://heartandsoul001.github.io/categories/%E6%8A%80%E6%9C%AF%E6%9D%82%E6%96%87/"/>
     
     
-      <category term="hexo, github搭建博客" scheme="http://wzq_forever.gitee.io/wzq/tags/hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="hexo, github搭建博客" scheme="https://heartandsoul001.github.io/tags/hexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wzq_forever.gitee.io/wzq/2020/05/15/hello-world/"/>
-    <id>http://wzq_forever.gitee.io/wzq/2020/05/15/hello-world/</id>
+    <link href="https://heartandsoul001.github.io/2020/05/15/hello-world/"/>
+    <id>https://heartandsoul001.github.io/2020/05/15/hello-world/</id>
     <published>2020-05-15T15:53:45.258Z</published>
     <updated>2020-05-15T15:53:45.258Z</updated>
     
