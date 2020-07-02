@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo博客编辑学习</title>
+    <title>hexo + github 个人博客使用</title>
     <link href="https://heartandsoul001.github.io/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/"/>
     <id>https://heartandsoul001.github.io/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-06-10T13:36:09.000Z</published>
@@ -25,7 +25,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;hexo + github 搭建个人博客&lt;/p&gt;
+      &lt;p&gt;hexo 是一个快速、简洁且高效的博客框架，采用 Node.js，使得网页资源的渲染更加快速。Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 &lt;/p&gt;
     
     </summary>
     

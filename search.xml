@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo博客编辑学习</title>
+    <title>hexo + github 个人博客使用</title>
     <url>/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>hexo + github 搭建个人博客</p>
+    <content><![CDATA[<p>hexo 是一个快速、简洁且高效的博客框架，采用 Node.js，使得网页资源的渲染更加快速。Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。 </p>
 <a id="more"></a>
 
 
