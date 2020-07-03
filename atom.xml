@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://heartandsoul001.github.io/"/>
-  <updated>2020-06-10T13:36:09.000Z</updated>
+  <updated>2020-07-03T13:12:42.000Z</updated>
   <id>https://heartandsoul001.github.io/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>黑苹果</title>
+    <link href="https://heartandsoul001.github.io/2020/07/03/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    <id>https://heartandsoul001.github.io/2020/07/03/%E9%BB%91%E8%8B%B9%E6%9E%9C/</id>
+    <published>2020-07-03T13:12:42.000Z</published>
+    <updated>2020-07-03T13:12:42.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一、什么是黑苹果&quot;&gt;&lt;a href=&quot;#一、什么是黑苹果&quot; class=&quot;headerlink&quot; title=&quot;一、什么是黑苹果?&quot;&gt;&lt;/a&gt;一、什么是黑苹果?&lt;/h1&gt;&lt;p&gt;在非苹果设备上运行 &lt;strong&gt;macos&lt;/strong&gt;&lt;br&gt;原因我分为两类：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不够（或者不舍得）买苹果电脑的钱&lt;/li&gt;
+&lt;li&gt;单纯的喜欢折腾&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;目的有以下几条：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;体验 &lt;strong&gt;macos&lt;/strong&gt; 系统下优秀的视频创作环境（非视频创作者，道听途说而已），例如 Final Cut Pro&lt;/li&gt;
+&lt;li&gt;已有苹果的其他产品，想体验完整的苹果生态，随航、接力和”一响全响“的通知。。。。。。。&lt;/li&gt;
+&lt;li&gt;作为主系统体验 &lt;strong&gt;unix&lt;/strong&gt; 环境下的代码编辑工作或者 &lt;strong&gt;IOS&lt;/strong&gt; 开发&lt;/li&gt;
+&lt;li&gt;体验 &lt;strong&gt;macos&lt;/strong&gt; 下漂亮的 UI 设计，喜欢 macos 下的流畅运行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习一</title>
+    <link href="https://heartandsoul001.github.io/2020/07/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/"/>
+    <id>https://heartandsoul001.github.io/2020/07/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/</id>
+    <published>2020-07-03T08:26:21.000Z</published>
+    <updated>2020-07-03T08:26:21.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;机器学习通过计算机语言来挖掘数据背后的秘密。人们无法从海量的数据中提取有用的信息，这时候需要借助计算机的超强算力，这就衍生了机器学习这们技术。机器学习常用于以下几个领域：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人脸识别&lt;/li&gt;
+&lt;li&gt;手写字体识别&lt;/li&gt;
+&lt;li&gt;垃圾邮件过滤&lt;/li&gt;
+&lt;li&gt;产品和内容推荐&lt;br&gt;。。。。。。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;机器学习有以下的专门术语：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特征/属性&lt;/li&gt;
+&lt;li&gt;训练集&lt;/li&gt;
+&lt;li&gt;测试集&lt;/li&gt;
+&lt;li&gt;标签&lt;br&gt;。。。。。。&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="机器学习" scheme="https://heartandsoul001.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="机器学习、入门" scheme="https://heartandsoul001.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%81%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo + github 个人博客使用</title>

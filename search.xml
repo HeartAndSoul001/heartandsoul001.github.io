@@ -88,4 +88,97 @@
         <tag>黑苹果, ACPI 排错</tag>
       </tags>
   </entry>
+  <entry>
+    <title>机器学习一</title>
+    <url>/2020/07/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/</url>
+    <content><![CDATA[<p>机器学习通过计算机语言来挖掘数据背后的秘密。人们无法从海量的数据中提取有用的信息，这时候需要借助计算机的超强算力，这就衍生了机器学习这们技术。机器学习常用于以下几个领域：</p>
+<ul>
+<li>人脸识别</li>
+<li>手写字体识别</li>
+<li>垃圾邮件过滤</li>
+<li>产品和内容推荐<br>。。。。。。</li>
+</ul>
+<p>机器学习有以下的专门术语：</p>
+<ul>
+<li>特征/属性</li>
+<li>训练集</li>
+<li>测试集</li>
+<li>标签<br>。。。。。。</li>
+</ul>
+<a id="more"></a>
+
+
+<h1 id="机器学习任务"><a href="#机器学习任务" class="headerlink" title="机器学习任务"></a>机器学习任务</h1><p>机器学习根据任务的不同可以分为分类和回归：</p>
+<ol>
+<li>分类：将实例数据划分到合适的分类中</li>
+<li>回归：用于预测数值型数据</li>
+</ol>
+<p>机器学习根据数据的不同也可分为监督学习和无监督学习：</p>
+<ol>
+<li>监督学习：数据有标签，可以通过研究训练集特征和标签之间的关系来预测数据</li>
+<li>无监督学习：初始数据没有标签值，其中又分为两类：<ul>
+<li>将数据集合分成由类似的对象组成的多个类的过程被称为<strong>聚类</strong></li>
+<li>将寻找描述数据统计值的过程称之为<strong>密度估计</strong>  </li>
+</ul>
+</li>
+</ol>
+<h1 id="又是一个一级标题"><a href="#又是一个一级标题" class="headerlink" title="又是一个一级标题"></a>又是一个一级标题</h1><p></p>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>机器学习、入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黑苹果</title>
+    <url>/2020/07/03/%E9%BB%91%E8%8B%B9%E6%9E%9C/</url>
+    <content><![CDATA[<h1 id="一、什么是黑苹果"><a href="#一、什么是黑苹果" class="headerlink" title="一、什么是黑苹果?"></a>一、什么是黑苹果?</h1><p>在非苹果设备上运行 <strong>macos</strong><br>原因我分为两类：</p>
+<ol>
+<li>不够（或者不舍得）买苹果电脑的钱</li>
+<li>单纯的喜欢折腾</li>
+</ol>
+<p>目的有以下几条：</p>
+<ul>
+<li>体验 <strong>macos</strong> 系统下优秀的视频创作环境（非视频创作者，道听途说而已），例如 Final Cut Pro</li>
+<li>已有苹果的其他产品，想体验完整的苹果生态，随航、接力和”一响全响“的通知。。。。。。。</li>
+<li>作为主系统体验 <strong>unix</strong> 环境下的代码编辑工作或者 <strong>IOS</strong> 开发</li>
+<li>体验 <strong>macos</strong> 下漂亮的 UI 设计，喜欢 macos 下的流畅运行</li>
+</ul>
+<hr>
+<a id="more"></a>
+<h1 id="二、如何安装黑苹果？"><a href="#二、如何安装黑苹果？" class="headerlink" title="二、如何安装黑苹果？"></a>二、如何安装黑苹果？</h1><p>安装黑苹果途径有两种（两个极端）：</p>
+<ol>
+<li>自己学习安装</li>
+</ol>
+<ul>
+<li>优点：可以学习<strong>知识</strong>（好好学习天天向上）、黑苹果更加定制化和完美、<strong>目前</strong>可以自行进行系统的升级而不怕系统崩溃</li>
+<li>缺点：耗费时间（有学习成本）、系统经常蹦（有可能造成数据丢失）、可能会掉头发。。。。。。</li>
+<li>要求：最好从事计算机相关专业或者了解这一方面，拥有较为充足的学习资源，例如远景论坛账号、会用 GitHub、有一定英文水平</li>
+</ul>
+<ol start="2">
+<li>他人帮助安装</li>
+</ol>
+<ul>
+<li>优点：没有时间学习成本，有钱或者有人就行</li>
+<li>缺点：比较费钱，系统不能随意升级（容易崩掉，然后自己又不会弄，只能再次花钱），黑苹果完整度也不够</li>
+<li>要求：有钱</li>
+</ul>
+<p>安装黑苹果教程视不同机器、不同型号、不同要求，难易程度以及流程各不相同，这里不会详细介绍，因为脱离了实际去讨论感觉不太实际。这里只给一些简要意见和建议：</p>
+<ol>
+<li>越主流的机型安装起来越方便</li>
+<li>安装 <strong>macos</strong> 单系统，推荐直接上 <strong>opencore</strong> 引导，详情参考 <a href="https://blog.daliansky.net/OpenCore-BootLoader.html" target="_blank" rel="noopener">黑果小兵精解opencore</a></li>
+<li>安装双系统，推荐 <strong>Clover</strong> 引导，简单方便，详情参考 <a href="https://blog.daliansky.net/clover-user-manual.html" target="_blank" rel="noopener">Clover使用教程</a></li>
+<li>一般来说台式机安装黑苹果要比笔记本简单</li>
+<li>要想驱动部分 <strong>N</strong> 卡（独立显卡），只能安装老一点的 <strong>macos</strong>系统（10.13），笔记本大部分的 <strong>A</strong> 卡也驱动不了，详情参考 <a href="https://blog.daliansky.net/Mojave-Hardware-Support-List.html" target="_blank" rel="noopener">黑果小兵</a> </li>
+<li>如果自行学习安装，遇到问题不会解决，可以前往远景论坛。远景论坛需要邀请码才能注册，可以去某宝购入。国内的黑苹果阵地基本上都在这儿了。</li>
+<li>或者加入QQ群，直接搜索关键字 “黑苹果”、“黑果”等等，在群里提问，基本上有人会应答你</li>
+<li>有的时候需要下载某个驱动，你可以到QQ群（有的群会上传驱动）、远景论坛搜索或者直接去 <strong>github</strong> 搜索<a href="https://github.com/acidanthera" target="_blank" rel="noopener">acidanthera</a>（acidanthera是现在黑苹果核心驱动的维护团队，以前好像是rehabman，都是大佬啊！！！）。</li>
+<li>！！！忠告！！！：不想学习费事学习安装黑苹果的千万不要自行随便升级系统，容易崩（把系统自动升级关了）。</li>
+</ol>
+<hr>
+<h1 id="三、由-WWDC2020-浅谈黑苹果的未来"><a href="#三、由-WWDC2020-浅谈黑苹果的未来" class="headerlink" title="三、由 WWDC2020 浅谈黑苹果的未来"></a>三、由 WWDC2020 浅谈黑苹果的未来</h1><p>WWDC2020中，苹果宣布计划花<strong>两年</strong>的时间将苹果电脑使用的芯片由 intel 转为自家的 A 系列芯片。并发布了新版的11.0系统 <strong>big sur</strong>。<br>以上举动对于黑苹果的影响：在苹果替换了自家的 A 系列芯片后，苹果电脑的定制化程度越来越高，基本上电脑的零部件都是自家生产的了。使得 macos 与其他电脑在硬件上不是很符合。所以，最终的结果是：两年左右之内发布的苹果系统还都是可以黑的，一担完全抛弃 intel 后发布的苹果系统就基本无望了。但这不代表不能黑苹果，毕竟可以安装老版本的黑苹果系统</p>
+]]></content>
+  </entry>
 </search>
