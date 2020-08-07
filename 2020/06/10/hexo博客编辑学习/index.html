@@ -255,7 +255,8 @@
 
 
 <h1 id="一、相关指令学习"><a href="#一、相关指令学习" class="headerlink" title="一、相关指令学习"></a>一、相关指令学习</h1><p><strong>1. init</strong><br><code>$ hexo init [folder]</code><br>新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。</p>
-<p><strong>2. new</strong><br><code>$ hexo new [layout] &lt;title&gt;</code><br>|参数|描述|<br>|–|:–:|-:|<br>|layout|page所使用的模板|<br>|title|page的标题|<br>|-p/–path|自定义新文章的路径|<br>|-r/–replace|如果存在同名文章，将其替换|<br>|-s/–slug|文章的Slug，作为新文章的文件名和发布后的URL|</p>
+<p><strong>2. new</strong><br><code>$ hexo new [layout] &lt;title&gt;</code></p>
+<p>|参数|描述|<br>|–|:–:|-:|<br>|layout|page所使用的模板|<br>|title|page的标题|<br>|-p/–path|自定义新文章的路径|<br>|-r/–replace|如果存在同名文章，将其替换|<br>|-s/–slug|文章的Slug，作为新文章的文件名和发布后的URL|</p>
 <p><code>$ hexo new page --path about/me &quot;About me&quot;</code><br>创建一个 source/about/me.md 文件，同时 Front Matter 中的 title 为 “About me”</p>
 <p>新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。</p>
 <p><strong>3. generate</strong><br><code>$ hexo generate</code>（也可写做<code>$ hexo g</code>）<br>生成静态文件</p>
