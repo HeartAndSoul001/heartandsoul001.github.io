@@ -9,58 +9,133 @@
 
 <h1 id="一、相关指令学习"><a href="#一、相关指令学习" class="headerlink" title="一、相关指令学习"></a>一、相关指令学习</h1><p><strong>1. init</strong><br><code>$ hexo init [folder]</code><br>新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。</p>
 <p><strong>2. new</strong><br><code>$ hexo new [layout] &lt;title&gt;</code></p>
-<p>|参数|描述|<br>|–|:–:|-:|<br>|layout|page所使用的模板|<br>|title|page的标题|<br>|-p/–path|自定义新文章的路径|<br>|-r/–replace|如果存在同名文章，将其替换|<br>|-s/–slug|文章的Slug，作为新文章的文件名和发布后的URL|</p>
+<table>
+<thead>
+<tr>
+<th align="center">参数</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">layout</td>
+<td align="center">page所使用的模板</td>
+</tr>
+<tr>
+<td align="center">title</td>
+<td align="center">page的标题</td>
+</tr>
+<tr>
+<td align="center">-p/–path</td>
+<td align="center">自定义新文章的路径</td>
+</tr>
+<tr>
+<td align="center">-r/–replace</td>
+<td align="center">如果存在同名文章，将其替换</td>
+</tr>
+<tr>
+<td align="center">-s/–slug</td>
+<td align="center">文章的Slug，作为新文章的文件名和发布后的URL</td>
+</tr>
+</tbody></table>
 <p><code>$ hexo new page --path about/me &quot;About me&quot;</code><br>创建一个 source/about/me.md 文件，同时 Front Matter 中的 title 为 “About me”</p>
 <p>新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。</p>
 <p><strong>3. generate</strong><br><code>$ hexo generate</code>（也可写做<code>$ hexo g</code>）<br>生成静态文件</p>
-<p>参数|描述<br>–|:-:|-:<br>-d/–deploy|文件生成后立即部署网站<br>-w/–watch|监视文件变动<br>-b/–bail|生成过程中如果发生任何未处理的异常则抛出异常<br>-f/–force|强制重新生成文件。Hexo引入了差分机制，如果 public 目录存在，那么 <code>hexo g</code> 只会重新生成改动的文件。使用该参数的效果接近 <code>hexo clean &amp;&amp; hexo generate</code><br>-c/–concurrency|最大同时生成文件的数量，默认无限制</p>
+<table>
+<thead>
+<tr>
+<th align="center">参数</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-d/–deploy</td>
+<td align="center">文件生成后立即部署网站</td>
+</tr>
+<tr>
+<td align="center">-w/–watch</td>
+<td align="center">监视文件变动</td>
+</tr>
+<tr>
+<td align="center">-b/–bail</td>
+<td align="center">生成过程中如果发生任何未处理的异常则抛出异常</td>
+</tr>
+<tr>
+<td align="center">-f/–force</td>
+<td align="center">强制重新生成文件。Hexo引入了差分机制，如果 public 目录存在，那么 <code>hexo g</code> 只会重新生成改动的文件。使用该参数的效果接近 <code>hexo clean &amp;&amp; hexo generate</code></td>
+</tr>
+<tr>
+<td align="center">-c/–concurrency</td>
+<td align="center">最大同时生成文件的数量，默认无限制</td>
+</tr>
+</tbody></table>
 <p><strong>4. publish</strong><br><code>$ hexo publish [layout] &lt;filename&gt;</code><br>发表草稿</p>
 <p><strong>5. server</strong><br><code>$ hexo server</code><br>启动服务器。默认情况下，访问网址为：<a href="http://localhost:400/" target="_blank" rel="noopener">http://localhost:400/</a> 。</p>
-<p>参数|描述<br>-|:-:|-:<br>-p/–port|重设端口<br>-s/–static|只使用静态文件<br>-l/–log|启动日记记录，使用覆盖记录格式</p>
-<p><strong>6. deploy</strong><br><code>$ hexo deploy</code>（可写做 <code>$ hexo d</code>）<br>部署网站<br>参数|描述<br>-|:-:|-:<br>-g/–generate|部署之前预先生成静态文件</p>
+<table>
+<thead>
+<tr>
+<th align="center">参数</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-p/–port</td>
+<td align="center">重设端口</td>
+</tr>
+<tr>
+<td align="center">-s/–static</td>
+<td align="center">只使用静态文件</td>
+</tr>
+<tr>
+<td align="center">-l/–log</td>
+<td align="center">启动日记记录，使用覆盖记录格式</td>
+</tr>
+</tbody></table>
+<p><strong>6. deploy</strong><br><code>$ hexo deploy</code>（可写做 <code>$ hexo d</code>）<br>部署网站<br>参数|描述<br>:–:|:-:<br>-g/–generate|部署之前预先生成静态文件</p>
 <p>写好文章后可以直接输入：<br><code>$ hexo d -g</code><br>进行部署并生成静态文件<br><strong>7. clean</strong><br><code>$ hexo clean</code><br>清除缓存文件 （db.json）和已生成的静态文件 （public）.<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令</p>
 <h1 id="二、Markdown-常用格式"><a href="#二、Markdown-常用格式" class="headerlink" title="二、Markdown 常用格式"></a>二、Markdown 常用格式</h1><p><strong>1. 标题</strong><br>使用 “#” 来表示标题，具体如下：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">。。。</span><br></pre></td></tr></table></figure>
 
-<p><strong>2. 代码块</strong><br>使用反引号来插入代码块：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96; or &#96;&#96;&#96;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">**3. 表格**</span><br><span class="line">使用如下格式绘画表格：</span><br></pre></td></tr></table></figure>
-<p>内容1|内容2<br>–|:–:|–:<br>1|2|</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">内容1|内容2</span><br><span class="line">--|:--:|--:</span><br><span class="line">1|2|</span><br><span class="line"></span><br><span class="line">**4. 超链接**</span><br><span class="line">使用如下格式插入超链接：</span><br></pre></td></tr></table></figure>
-<p>[超链接名](超链接地址 “超链接title”)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">其中 title 可加可不加</span><br><span class="line"></span><br><span class="line">e.g.:</span><br></pre></td></tr></table></figure>
-<p><a href="https://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="https://baidu.com" target="_blank" rel="noopener">百度</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输出效果：</span><br><span class="line">[简书](https:&#x2F;&#x2F;jianshu.com)</span><br><span class="line">[百度](https:&#x2F;&#x2F;baidu.com)</span><br><span class="line"></span><br><span class="line">**5. 图片**</span><br></pre></td></tr></table></figure>
-<p><img src="/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片名"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">这边 hexo 内插入图片的方法具体参考[这篇文章](https:&#x2F;&#x2F;blog.csdn.net&#x2F;Fitz1318&#x2F;article&#x2F;details&#x2F;86548129)</span><br><span class="line">e.g.:</span><br></pre></td></tr></table></figure>
-<p><img src="/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/1.jpg" alt="示例"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输出效果：</span><br><span class="line">![示例](1.jpg)</span><br><span class="line"></span><br><span class="line">**6. 字体**</span><br></pre></td></tr></table></figure>
-<p><strong>a</strong> a加粗<br><em>b</em>   b斜体<br><strong><em>c</em></strong> c斜体和加粗<br><del>d</del> 删除线</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">具体效果如下：</span><br><span class="line">**a** </span><br><span class="line">*b*   </span><br><span class="line">***c*** </span><br><span class="line">~~d~~</span><br><span class="line"></span><br><span class="line">**7. 引用**</span><br></pre></td></tr></table></figure>
+<p><strong>2. 代码块</strong><br>使用单反引号或三反引号来插入代码块：</p>
+<p><strong>3. 表格</strong><br>使用如下格式绘画表格：<br>内容1|内容2<br>:–:|:–:<br>1|2</p>
+<p>其中 “:” 以为对齐方式</p>
+<table>
+<thead>
+<tr>
+<th align="center">内容1</th>
+<th align="center">内容2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+</tbody></table>
+<p><strong>4. 超链接</strong><br>使用如下格式插入超链接：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[超链接名](超链接地址 “超链接title”)</span><br></pre></td></tr></table></figure>
+<p>其中 title 可加可不加</p>
+<p>e.g.:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[简书](https:&#x2F;&#x2F;jianshu.com)</span><br><span class="line">[百度](https:&#x2F;&#x2F;baidu.com)</span><br></pre></td></tr></table></figure>
+<p>输出效果：<br><a href="https://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="https://baidu.com" target="_blank" rel="noopener">百度</a></p>
+<p><strong>5. 图片</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![图片名](图片地址)</span><br></pre></td></tr></table></figure>
+<p>这边 hexo 内插入图片的方法具体参考<a href="https://blog.csdn.net/Fitz1318/article/details/86548129" target="_blank" rel="noopener">这篇文章</a><br>e.g.:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![示例](1.jpg)</span><br></pre></td></tr></table></figure>
+<p>输出效果：<br><img src="/2020/06/10/hexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E8%BE%91%E5%AD%A6%E4%B9%A0/1.jpg" alt="示例"></p>
+<p><strong>6. 字体</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">**a** a加粗</span><br><span class="line">*b*   b斜体</span><br><span class="line">***c*** c斜体和加粗</span><br><span class="line">~~d~~ 删除线</span><br></pre></td></tr></table></figure>
+<p>具体效果如下：<br><strong>a</strong><br><em>b</em><br><strong><em>c</em></strong><br><del>d</del></p>
+<p><strong>7. 引用</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;这是引用的内容（可多层嵌套）</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
 <blockquote>
-<p>这是引用的内容（可多层嵌套）</p>
+<p>这是引用的内容</p>
 </blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">效果：</span><br><span class="line">&gt;这是引用的内容</span><br><span class="line"></span><br><span class="line">**8. 分割线**</span><br><span class="line">使用 3 个或者 3 个以上的 “-”或者 “*” 都可以</span><br></pre></td></tr></table></figure>
-<p>___(下划线)</p>
+<p><strong>8. 分割线</strong><br>使用 3 个或者 3 个以上的 “-”或者 “*” 都可以</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">___(下划线)</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
 <hr>
-<pre><code>效果：
-___
-***
-
-**9. 表情**
-格式|表情
---|:--:|--:
-`:)`|:)
-`:(`|:(
-`:*`|:*
-`:$`|:$
-`:@`|:@
-`:/`|:/
-`:|`|:\|
-
-### 三级标题
-
-# 又是一个一级标题</code></pre>]]></content>
+<hr>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="又是一个一级标题"><a href="#又是一个一级标题" class="headerlink" title="又是一个一级标题"></a>又是一个一级标题</h1>]]></content>
       <categories>
         <category>技术杂文</category>
       </categories>
