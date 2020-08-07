@@ -16,7 +16,8 @@
 <p><strong>4. publish</strong><br><code>$ hexo publish [layout] &lt;filename&gt;</code><br>发表草稿</p>
 <p><strong>5. server</strong><br><code>$ hexo server</code><br>启动服务器。默认情况下，访问网址为：<a href="http://localhost:400/" target="_blank" rel="noopener">http://localhost:400/</a> 。</p>
 <p>参数|描述<br>-|:-:|-:<br>-p/–port|重设端口<br>-s/–static|只使用静态文件<br>-l/–log|启动日记记录，使用覆盖记录格式</p>
-<p><strong>6. deploy</strong><br><code>$ hexo deploy</code>（可写做 <code>$ hexo d</code>）<br>部署网站<br>参数|描述<br>-|:-:|-:<br>-g/–generate|部署之前预先生成静态文件<br><strong>7. clean</strong><br><code>$ hexo clean</code><br>清除缓存文件 （db.json）和已生成的静态文件 （public）.<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令</p>
+<p><strong>6. deploy</strong><br><code>$ hexo deploy</code>（可写做 <code>$ hexo d</code>）<br>部署网站<br>参数|描述<br>-|:-:|-:<br>-g/–generate|部署之前预先生成静态文件</p>
+<p>写好文章后可以直接输入：<br><code>$ hexo d -g</code><br>进行部署并生成静态文件<br><strong>7. clean</strong><br><code>$ hexo clean</code><br>清除缓存文件 （db.json）和已生成的静态文件 （public）.<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令</p>
 <h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="又是一个一级标题"><a href="#又是一个一级标题" class="headerlink" title="又是一个一级标题"></a>又是一个一级标题</h1>]]></content>
       <categories>
         <category>技术杂文</category>
@@ -148,12 +149,12 @@
     <content><![CDATA[<h1 id="一、什么是黑苹果"><a href="#一、什么是黑苹果" class="headerlink" title="一、什么是黑苹果?"></a>一、什么是黑苹果?</h1><p>在非苹果设备上运行 <strong>macos</strong><br>原因我分为两类：</p>
 <ol>
 <li>不够（或者不舍得）买苹果电脑的钱</li>
-<li>单纯的喜欢折腾</li>
+<li>单纯的喜欢折腾<a id="more"></a>
+目的有以下几条：</li>
 </ol>
-<p>目的有以下几条：</p>
 <ul>
 <li>体验 <strong>macos</strong> 系统下优秀的视频创作环境（非视频创作者，道听途说而已），例如 Final Cut Pro</li>
-<li>已有苹果的其他产品，想体验完整的苹果生态，随航、接力和”一响全响“的通知。。。。。。。<a id="more"></a></li>
+<li>已有苹果的其他产品，想体验完整的苹果生态，随航、接力和”一响全响“的通知。。。。。。。</li>
 <li>作为主系统体验 <strong>unix</strong> 环境下的代码编辑工作或者 <strong>IOS</strong> 开发</li>
 <li>体验 <strong>macos</strong> 下漂亮的 UI 设计，喜欢 macos 下的流畅运行</li>
 </ul>
