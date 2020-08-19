@@ -181,22 +181,6 @@
       </tags>
   </entry>
   <entry>
-    <title>测试博文</title>
-    <url>/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<p>此篇博文旨在测试一下利用 hexo 编写并上传博文后的结果，以下纯属胡编：<br>屋檐如悬崖，风铃如沧海，我等燕归来；<br>时间被安排，演一场意外，你悄然走开；<br>浓雾散不开，风声不存在，是我在感慨；<br>梦醒来是谁在窗台，把结局打开；<br>那薄如蝉翼的未来，经不起谁来拆；</p>
-<a id="more"></a>
-
-<h1 id="我送你离开天涯之外你是否还在；"><a href="#我送你离开天涯之外你是否还在；" class="headerlink" title="我送你离开天涯之外你是否还在；"></a>我送你离开天涯之外你是否还在；</h1><p>  琴声何来生死难猜用一生去等待；</p>
-<h2 id="闻泪声入林寻梨花白只得一行青苔；"><a href="#闻泪声入林寻梨花白只得一行青苔；" class="headerlink" title="闻泪声入林寻梨花白只得一行青苔；"></a>闻泪声入林寻梨花白只得一行青苔；</h2><p>中国有13亿人口<br>  。。。。。。</p>
-]]></content>
-      <categories>
-        <category>技术杂文</category>
-      </categories>
-      <tags>
-        <tag>hexo, github搭建博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>机器学习一</title>
     <url>/2020/07/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%80/</url>
     <content><![CDATA[<p>机器学习通过计算机语言来挖掘数据背后的秘密。人们无法从海量的数据中提取有用的信息，这时候需要借助计算机的超强算力，这就衍生了机器学习这们技术。机器学习常用于以下几个领域：</p>
@@ -238,6 +222,22 @@
       </categories>
       <tags>
         <tag>机器学习、入门</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试博文</title>
+    <url>/2020/05/31/%E6%B5%8B%E8%AF%95%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p>此篇博文旨在测试一下利用 hexo 编写并上传博文后的结果，以下纯属胡编：<br>屋檐如悬崖，风铃如沧海，我等燕归来；<br>时间被安排，演一场意外，你悄然走开；<br>浓雾散不开，风声不存在，是我在感慨；<br>梦醒来是谁在窗台，把结局打开；<br>那薄如蝉翼的未来，经不起谁来拆；</p>
+<a id="more"></a>
+
+<h1 id="我送你离开天涯之外你是否还在；"><a href="#我送你离开天涯之外你是否还在；" class="headerlink" title="我送你离开天涯之外你是否还在；"></a>我送你离开天涯之外你是否还在；</h1><p>  琴声何来生死难猜用一生去等待；</p>
+<h2 id="闻泪声入林寻梨花白只得一行青苔；"><a href="#闻泪声入林寻梨花白只得一行青苔；" class="headerlink" title="闻泪声入林寻梨花白只得一行青苔；"></a>闻泪声入林寻梨花白只得一行青苔；</h2><p>中国有13亿人口<br>  。。。。。。</p>
+]]></content>
+      <categories>
+        <category>技术杂文</category>
+      </categories>
+      <tags>
+        <tag>hexo, github搭建博客</tag>
       </tags>
   </entry>
   <entry>
